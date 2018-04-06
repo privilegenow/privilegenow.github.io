@@ -1,12 +1,12 @@
 body {
   	font-weight: 300;
-  	font-family: 'Roboto Mono', monospace;
+  	font-family: 'Monda', sans-serif;
   	color:white;
-  	background-color: #2f1b2a;
+  	background-color: #240115;
 }
 
 body a {
-	color: rgba(249, 2, 146, 1.0);
+	color: #2667ff;
 
 }
 
@@ -28,11 +28,22 @@ footer {
 	color: white;
 }
 
+button {
+	background-color: #240115;
+	color: white;
+	margin-left: 1%;
+	width: 340px;
+}
+
 .title_event{
 	background-size: 580px;
 	background-color: #2f1b2a;
 	color: #FBFF12;
 
+}
+
+.im {
+	border-radius: 3px;
 }
 
 
@@ -66,18 +77,14 @@ footer {
 	border-top-left-radius:  2px;
 }
 
-.rev_sundays {
-	background-size: 550px;
-	background-image: linear-gradient(to top, rgba(249, 2, 146, 0.8), rgba(252, 23, 2, 0.8)),  url("../image/revolution_sundays.jpg");
-}
 
 
 .bgbody {
-	background-color: #f9f4ea;
+	background-color: #edf5fc;
 }
 
 .bgbody_start {
-	background-color: #fd4850;
+	background-color: #a39ba8;
 }
 
 .about a {
@@ -112,9 +119,9 @@ footer {
 
 hr.haar-top {
 	border: 0;
-    height: 3px;
+    height: 30px;
     width: 30vw;
-    background: #FBFF12;
+    background: none;
     margin: 0 0 0 0;
 }
 
@@ -123,7 +130,7 @@ hr.haar-l {
 	border: 0;
     height: 30px;
     width: 10vw;
-    background: #FBFF12;
+    background: none;
     margin-top: 0vh;
     margin-bottom: 0vh;
     margin-left: 90vw;
@@ -133,7 +140,7 @@ hr.haar-r {
 	border: 0;
     height: 30px;
     width: 10vw;
-    background: #FBFF12;
+    background: none;
     margin-top: 0vh;
     margin-bottom: 0vh;
     margin-left: 0;
@@ -143,50 +150,65 @@ hr.haar-fijn {
 	border: 0;
     height: 15px;
     width: 100vw;
-    background: #fd4850;
+    background: rgba(38, 103, 255, 1.0);
     margin: 0 auto;
 }
 
 .bg-medium {
-	background-color: #fffcf5;
+	background-color: white;
 	/*background-image: linear-gradient(to bottom right, #FBFF12,  #F1E9DA, #F1E9DA,#F1E9DA, #F1E9DA, #FBFF12);*/
-	color: #0C120C;
+	color: #2E382E;
 	border: none;
 /*	border-bottom: 4px solid yellow;*/
 
 }
 
-.bg-yellow {
+.bg-blue {
 	color: white;
-	background-color: #FBFF12;
-/*	background-color: #fd4850;*/
+	background-image: linear-gradient(to bottom right, rgba(163, 155, 168, 0.8), rgba(38, 103, 255, 0.8));
 	border: none;
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
 
 .bg-dark {
-	color: #f8f9d8;
-	background-color: #2f1b2a;
+	color: #edf5fc;
+	background-color: #342e37;
 	border: none;
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
 
+
 .bg-dark strong {
 	color: #FBFF12;
 }
 
-.name {
-	font-family: 'IBM Plex Mono', monospace;
-	font-weight: 600;
-	font-size: 2.5rem;
+.bg-first {
+	background-image: linear-gradient(to bottom right, rgba(163, 155, 168, 0.8), rgba(38, 103, 255, 0.8)),  url("../image/man_suit.jpg");
+	background-size: 1400px;
 	color: white;
+	padding-top: 5%;
+	padding-bottom: 2%;
 }
 
-.bg-image {
-	background-image: linear-gradient(to bottom right, rgba(249, 2, 146, 0.85), rgba(252, 23, 2, 0.9)), url("../image/underground_sm.jpeg");
+.first-elem{
+	padding-top: 0px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 4vw;
+	margin-right: 4vw;
 }
+
+.name {
+	font-weight: 700;
+	font-size: 3.5rem;
+	color: #fcfcfc;
+}
+
+/*.bg-image {
+	background-color: linear-gradient(to bottom right, white, yellow);
+}*/
 
 .small_image {
 	background-image: url("../image/underground_sm.jpeg");
@@ -200,9 +222,6 @@ hr.haar-fijn {
 	font-size: 0.85rem;
 }
 
-.main-page h1 {
-	font-size: 2.5rem;
-}
 
 .float-right {
 	float: right;
@@ -229,14 +248,9 @@ hr.haar-fijn {
 	margin-right: 4vw;
 }
 
-.first-elem{
-	padding-top: 0px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-left: 4vw;
-	margin-right: 4vw;
-	color:white;
-}
+/*rgb(243, 167, 18, 0.7)*/
+/*rgba(219, 43, 57, 0.3)*/
+
 
 @media screen and (max-width: 920px) {
 
@@ -267,7 +281,7 @@ hr.haar-fijn {
 
 .dark-bg {
 	background-color: black;
-	color: white;
+	color: #ccdbdc;
 }
 
 .footer-elem{
@@ -289,25 +303,6 @@ hr.haar-fijn {
 	color: white;
 }
 
-.nav-elem{
-	padding-bottom: 15px;
-	padding-top: 15px;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	margin-left: 4vw;
-	margin-right: 4vw;
-	font-weight: 400;
-}
-
-.nav-elem a {
-	color: #F1E9DA;
-}
-
-.nav-elem a:hover {
-	color: #321325;
-	text-decoration: none;
-}
-
 
 header {
 	border: none;
@@ -324,7 +319,7 @@ header {
 }
 
 .nav-item {
-	background-color: rgba(249, 2, 146, 1.0);
+	background-color: #240115;
 	font-weight: 500;
 	width: 90%;
 	padding-left: 5%;
@@ -336,6 +331,10 @@ header {
 	color: white;
 }
 
+.important a {
+	text-decoration: underline;
+	font-weight: 700;
+}
 .contact-align {
 	text-align: center;
 }
