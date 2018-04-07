@@ -1,11 +1,11 @@
 # Site settings
-title: Token Male
-email: hello@tokenmale.org
-description: Token Male
+title: Privilege Now
+email: hello@privilegenow.org
+description: privilegenow
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tokenmale.org" # the base hostname & protocol for your site
-twitter_username: tokenmale
-github_username:  tokenmale
+url: "http://privilegenow.org" # the base hostname & protocol for your site
+twitter_username: privilegenow
+github_username:  privilegenow
 
 # Build settings
 markdown: kramdown
