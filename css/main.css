@@ -28,11 +28,10 @@ footer {
 	color: white;
 }
 
-button {
+.btn {
 	background-color: #240115;
 	color: white;
 	margin-left: 1%;
-	width: 340px;
 }
 
 .title_event{
